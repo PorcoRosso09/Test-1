@@ -1,0 +1,64 @@
+// Khai báo 2 biến x, y nhận giá trị số bất kì
+// Khai báo các biến sum, sub, mul, div lần lượt gán giá trị tổng, hiệu, tích, thương của x, y cho từng biến.
+ var x = 1; var y = 4;
+ var sum = x + y
+ var sub = x - y
+ var mul = x * y
+ var div = x / y
+
+ * fullName có kiểu dữ liệu là string;
+ * age có kiểu dữ liệu là number;
+ * isMale có kiểu dữ liệu là boolean;
+ */
+ 
+// viết code ở đây
+var fullName = 'I\'m Nam'; 
+var age = 14; 
+var isMale = true;
+
+Hãy khai báo một mảng numbers chứa các số từ 1 đến 10.
+var numbers = [1,2,3,4,5,6,7,8,9,10];
+console.log (numbers);
+
+Bài tập về đối tượng:
+Hãy khai báo một đối tượng person đại diện cho một người với các thuộc tính sau:
+name: Tên của người đó.
+age: Tuổi của người đó.
+city: Thành phố mà người đó đang sống.
+
+let person = {
+  name: 'Nam',
+  age: 14,
+  city: 'Ha Noi'
+};
+console.log (person);
+
+Bài tập về phạm vi biến:
+Hãy viết một hàm calculateCircleArea(radius) nhận vào bán kính của hình tròn và trả về diện tích của nó. Trong hàm này:
+Khai báo biến PI để lưu giá trị pi (3.14).
+Khai báo biến area để tính diện tích hình tròn.
+Trả về giá trị của biến area.
+
+function calculateCircleArea (radius){
+  const PI = 3.14;
+  let area;
+  return area = PI * radius * radius;
+}
+console.log (calculateCircleArea(10));
+
+Bài tập thêm vào mảng:
+Hãy khai báo một mảng rỗng fruits. Sau đó, thêm vào mảng này các phần tử sau:
+
+"Apple"
+"Banana"
+"Orange"
+"Grape"
+"Mango"
+
+let fruit = []
+fruit.push('apple');
+fruit.unshift('orange');
+fruit.push('banana');
+fruit.push('grape');
+fruit.push('mango');
+console.log (fruit)

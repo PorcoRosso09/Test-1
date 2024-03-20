@@ -15,6 +15,7 @@ Cụ thể, giá trị của a được tăng lên trước khi sử dụng.
 Toán tử % trả về phần dư của phép chia hai giá trị số.
 Nó được sử dụng để kiểm tra xem một số có chia hết cho một số khác hay không.
 3. + -  
+4. = , += , -= , *= , /=
 */
 
 // bài tập 
@@ -56,8 +57,41 @@ console.log('chu vi của hình chữ nhật',p);
 // viết code ở đây.
 var r = 4;
 const pi = 3.14
-const chuvihinhtron = 2 * pi * r
-const dientichhinhtron = pi * r * r
+const chuViHinhTron = 2 * pi * r
+const dienTichHinhTron = pi * r * r
 
-console.log('chu vi hinh tron',chuvihinhtron);
-console.log('dien tich hinh tron',dientichhinhtron);
+console.log(`chu vi hinh tron la ${chuViHinhTron}cm`);
+console.log('dien tich hinh tron',dienTichHinhTron);
+
+// Giới thiệu về function trong JavaScript
+//* Hàm không có đối số:
+function greet() {
+    console.log("Xin chào!");
+}
+
+greet(); // In ra "Xin chào!"
+
+//* Hàm với đối số
+function greet(name) {
+    console.log("Xin chào, " + name + "!");
+}
+
+greet("Nguyễn Văn A"); // In ra "Xin chào, Nguyễn Văn A!"
+
+// Hàm trả về giá trị
+function add(a, b) {
+    let c = a + b
+    return c;
+}
+
+let c = add(5, 3);
+console.log(c); // In ra 8
+c = add( 10,20)
+console.log(c); // In ra 30
+
+// hàm là biểu thức 
+let multiply = function(a, b) {
+    return a * b;
+};
+console.log(multiply(4, 6)); // In ra 24
+

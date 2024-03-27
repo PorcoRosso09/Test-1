@@ -30,7 +30,7 @@ let person = {
   name: 'Nam',
   age: 14,
   city: 'Ha Noi'
-};
+};  
 console.log (person);
 
 Bài tập về phạm vi biến:
